@@ -1,0 +1,12 @@
+# Site Settings
+baseurl: 		""
+title: 			Insurance for Freelancers
+
+name: 			Insurance for freelancers
+description: 	A beautifully contemporary and elegant Jekyll theme
+url: 			"http://localhost:4000"
+
+twitter: 		insurancebyjack
+email: 			hello@insurancebyjack.co.uk
+
+analytics: 		UA-XXXXXXX-Y

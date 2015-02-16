@@ -1,0 +1,25 @@
+{% if page.image %}<div class="overlay"></div>{% endif %}
+      
+<div class="excerpt">
+        
+
+	<h2>{{ page.title }}</h2>
+		
+
+	<p>{{ page.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+
+	{% if page.date or page.categories %}
+
+		{% if page.type == 'post' %}
+			<span class="meta">Published {{ page.date | date: '%b %-d, %Y' | prepend: '<b>' | append: '</b>' }} {{ page.categories | join: ', ' | prepend: 'in <b>' | append: '</b>' }}</span>
+		{% else %}
+			<span class="meta">Published {{ page.date | date: '%b %-d, %Y' | prepend: '<b>' | append: '</b>' }}</span>
+		{% endif %}
+	
+	{% endif %}
+
+</div>
+
+{% if page.type != 'home' %}
+	<a href="#" title="Scroll" class="scroll">Scroll</a>
+{% endif %}
