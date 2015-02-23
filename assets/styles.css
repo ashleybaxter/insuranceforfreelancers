@@ -26,6 +26,19 @@ b, strong { font-weight: 600 }
 
 i, em { font-style: italic }
 
+button {
+    background-color: #eb2344;
+    padding: 12px;
+    border: none;
+    color: white;
+    margin:20px 0;
+    width: 250px;
+}
+
+button a {
+    color: white;
+}
+
 a {
     color: #eb2344;
     text-decoration: none; }
@@ -364,17 +377,6 @@ body > header {
     .content article header .excerpt p { margin: 10px 0 }
 
     .content article header .excerpt .meta { font-size: 0.875rem }
-
-.content article header:hover .excerpt {
-    opacity: 0.65;
-    -webkit-transform: translate3d(0, 12px, 0);
-    -moz-transform: translate3d(0, 12px, 0);
-    -o-transform: translate3d(0, 12px, 0);
-    transform: translate3d(0, 12px, 0);
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out; }
 
 .content article header .scroll {
     display: none;
