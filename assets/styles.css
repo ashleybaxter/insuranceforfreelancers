@@ -39,6 +39,14 @@ button a {
     color: white;
 }
 
+button a:hover {
+    opacity: 1;
+}
+
+button:hover {
+    opacity: 0.85
+}
+
 a {
     color: #eb2344;
     text-decoration: none; }
@@ -160,6 +168,17 @@ h5 {
         left: 0;
         bottom: -15px;
         background: #eb2344; }
+
+.alert {
+    background-color: #a18cab;
+    background-image: -o-linear-gradient(-40deg, #0e153a 10%, #4a4c7b 35%, #a18cab 65%, #f3c9d7 90%);
+    background-image: -moz-linear-gradient(-40deg, #0e153a 10%, #4a4c7b 35%, #a18cab 65%, #f3c9d7 90%);
+    background-image: -ms-linear-gradient(-40deg, #0e153a 10%, #4a4c7b 35%, #a18cab 65%, #f3c9d7 90%);
+    background-image: linear-gradient(-130deg, #0e153a 10%, #4a4c7b 35%, #a18cab 65%, #f3c9d7 90%);
+    padding: 30px;
+    color: white;
+    margin: 30px 0;
+}
 
 .more {
     display: inline-block;
@@ -660,8 +679,6 @@ body > footer {
         left: 0;
         top: -15px;
         background: #eb2344; }
-
-    body > footer .copyright a { margin-left: 6px }
 
 /* Syntax Highlighting */
 pre, code {
